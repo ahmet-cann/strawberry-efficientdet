@@ -1,0 +1,5 @@
+id,note,variant,img_size,pretrained,freeze_backbone,augment,lr,batch_size,best_epoch,epochs_run,train_time_min,val_mAP50,val_mAP50-95,val_P,val_R,val_F1,timestamp
+E0,"baseline, from scratch",tf_efficientdet_d0,512,False,False,flip,0.001,8,66,86,73.5,0.9741,0.9131,0.6476,0.849,0.7317,2026-10-20 16:12
+E1_0,lr=0.0003,tf_efficientdet_d0,512,False,False,flip,0.0003,8,79,99,88.7,0.9612,0.8619,0.6152,0.8397,0.708,2026-10-20 18:09
+E1_1,lr=0.003,tf_efficientdet_d0,512,False,False,flip,0.003,8,83,100,86.0,0.9825,0.9536,0.7307,0.9117,0.8068,2026-10-20 19:35
+FINAL_s7,"final config, seed 7",tf_efficientdet_d0,512,False,False,flip,0.003,8,95,100,94.4,0.9729,0.9472,0.7006,0.8654,0.771,2026-10-22 21:45

@@ -1,0 +1,17 @@
+{
+  "id": "E0",
+  "note": "baseline, from scratch",
+  "variant": "tf_efficientdet_d0",
+  "img_size": null,
+  "pretrained": false,
+  "pretrained_backbone": false,
+  "freeze_backbone": false,
+  "augment": "flip",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 8,
+  "epochs": 100,
+  "warmup_epochs": 5,
+  "patience": 20,
+  "seed": 42
+}

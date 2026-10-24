@@ -1,0 +1,5 @@
+,train,val,test
+Short,113,18,12
+Medium,113,13,15
+Long,115,12,16
+images,341,43,43

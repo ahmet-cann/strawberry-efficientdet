@@ -1,0 +1,2 @@
+id,note,variant,img_size,pretrained,freeze_backbone,augment,lr,batch_size,best_epoch,epochs_run,train_time_min,val_mAP50,val_mAP50-95,val_P,val_R,val_F1,timestamp
+FINAL_s2024,"final config, seed 2024",tf_efficientdet_d0,512,False,False,flip,0.003,8,42,62,26.6,0.9759,0.9202,0.7829,0.9466,0.8564,2026-10-23 00:35
